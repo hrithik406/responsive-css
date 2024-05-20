@@ -1,0 +1,31 @@
+*{
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 95vh;
+    background: #34e7e4;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    width: fit-content;
+}
+
+.right{
+    width: min-content;
+}
+
+.left{
+    width: max-content;
+}
+
+header{
+    width: auto;
+}
